@@ -3,8 +3,9 @@
 # Uncomment this line if you're using Swift
 # use_frameworks!
 
-target 'PP' do
-pod 'UIAlertView+Blocks'
-pod 'AFNetworking', '~> 3.0'
+target 'mVideo' do
+
+pod 'MMDrawerController', '~> 0.5.7'
+
 end
 

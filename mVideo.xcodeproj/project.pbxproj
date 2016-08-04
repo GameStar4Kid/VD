@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A51EC3C194D0270C46AFC79 /* libPods-mVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A4A266FBC7CDF0843D64B0 /* libPods-mVideo.a */; };
 		1710B6A01D40CACE00507C50 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1710B69F1D40CACE00507C50 /* AVFoundation.framework */; };
 		1710B6AA1D40CAFF00507C50 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1710B6A91D40CAFF00507C50 /* ImageIO.framework */; };
 		1710B6AC1D40CB2100507C50 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1710B6AB1D40CB2100507C50 /* libc++.tbd */; };
@@ -25,8 +26,19 @@
 		266158E11D4B3D4F00EA29BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266158D31D4B3D4F00EA29BA /* LaunchScreen.storyboard */; };
 		266158E21D4B3D4F00EA29BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266158D41D4B3D4F00EA29BA /* Main.storyboard */; };
 		266158E31D4B3D4F00EA29BA /* SettingUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 266158D71D4B3D4F00EA29BA /* SettingUtils.m */; };
-		266158E41D4B3D4F00EA29BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 266158DA1D4B3D4F00EA29BA /* ViewController.m */; };
-		DB2F21D13FA541E2C79AD719 /* libPods-PP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E1DC62AF352D632C92827FC /* libPods-PP.a */; };
+		3C090A531D50A6760050CC33 /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C090A521D50A6760050CC33 /* ParentViewController.m */; };
+		3C36A2801D52FFED006C9A87 /* SearchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C36A27F1D52FFED006C9A87 /* SearchItem.m */; };
+		3C36A2841D531CA2006C9A87 /* SettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C36A2831D531CA2006C9A87 /* SettingItem.m */; };
+		3C36A28D1D531EA8006C9A87 /* SearchItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C36A28B1D531EA8006C9A87 /* SearchItemTableViewCell.m */; };
+		3C36A28E1D531EA8006C9A87 /* SearchItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C36A28C1D531EA8006C9A87 /* SearchItemTableViewCell.xib */; };
+		3C36A2921D5320C7006C9A87 /* SettingItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C36A2901D5320C7006C9A87 /* SettingItemTableViewCell.m */; };
+		3C36A2931D5320C7006C9A87 /* SettingItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C36A2911D5320C7006C9A87 /* SettingItemTableViewCell.xib */; };
+		3C5C1DBF1D51C418006BE423 /* ButtonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5C1DBD1D51C418006BE423 /* ButtonTableViewCell.m */; };
+		3C5C1DC01D51C418006BE423 /* ButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C5C1DBE1D51C418006BE423 /* ButtonTableViewCell.xib */; };
+		3C5C1DC71D51C76B006BE423 /* WebDescriptionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5C1DC51D51C76B006BE423 /* WebDescriptionTableViewCell.m */; };
+		3C5C1DC81D51C76B006BE423 /* WebDescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C5C1DC61D51C76B006BE423 /* WebDescriptionTableViewCell.xib */; };
+		3C8F6E3C1D50877B00C3E074 /* LeftSlideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8F6E3B1D50877B00C3E074 /* LeftSlideDrawerViewController.m */; };
+		3C8F6E3F1D50879000C3E074 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8F6E3E1D50879000C3E074 /* CenterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +52,7 @@
 		178F77231D34D34100596B38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		17C151831D33943C0084CF31 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		17C151851D3394730084CF31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		21A4A266FBC7CDF0843D64B0 /* libPods-mVideo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mVideo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		263CBC0A1D2E62B200AEB3A3 /* mVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		266158C61D4B3D4F00EA29BA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		266158C71D4B3D4F00EA29BA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,11 +67,32 @@
 		266158D41D4B3D4F00EA29BA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		266158D61D4B3D4F00EA29BA /* SettingUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingUtils.h; sourceTree = "<group>"; };
 		266158D71D4B3D4F00EA29BA /* SettingUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingUtils.m; sourceTree = "<group>"; };
-		266158D91D4B3D4F00EA29BA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		266158DA1D4B3D4F00EA29BA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9E1DC62AF352D632C92827FC /* libPods-PP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5229D407F7B163538D154E0 /* Pods-PP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PP.release.xcconfig"; path = "Pods/Target Support Files/Pods-PP/Pods-PP.release.xcconfig"; sourceTree = "<group>"; };
-		EA808F20DA5FB3E2699500CA /* Pods-PP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PP/Pods-PP.debug.xcconfig"; sourceTree = "<group>"; };
+		3C090A511D50A6760050CC33 /* ParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
+		3C090A521D50A6760050CC33 /* ParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
+		3C36A27E1D52FFED006C9A87 /* SearchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchItem.h; sourceTree = "<group>"; };
+		3C36A27F1D52FFED006C9A87 /* SearchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchItem.m; sourceTree = "<group>"; };
+		3C36A2821D531CA2006C9A87 /* SettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingItem.h; sourceTree = "<group>"; };
+		3C36A2831D531CA2006C9A87 /* SettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingItem.m; sourceTree = "<group>"; };
+		3C36A28A1D531EA8006C9A87 /* SearchItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchItemTableViewCell.h; sourceTree = "<group>"; };
+		3C36A28B1D531EA8006C9A87 /* SearchItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchItemTableViewCell.m; sourceTree = "<group>"; };
+		3C36A28C1D531EA8006C9A87 /* SearchItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchItemTableViewCell.xib; sourceTree = "<group>"; };
+		3C36A28F1D5320C7006C9A87 /* SettingItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingItemTableViewCell.h; sourceTree = "<group>"; };
+		3C36A2901D5320C7006C9A87 /* SettingItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingItemTableViewCell.m; sourceTree = "<group>"; };
+		3C36A2911D5320C7006C9A87 /* SettingItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingItemTableViewCell.xib; sourceTree = "<group>"; };
+		3C5C1DB61D51A6BB006BE423 /* Enums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enums.h; sourceTree = "<group>"; };
+		3C5C1DBC1D51C418006BE423 /* ButtonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonTableViewCell.h; sourceTree = "<group>"; };
+		3C5C1DBD1D51C418006BE423 /* ButtonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonTableViewCell.m; sourceTree = "<group>"; };
+		3C5C1DBE1D51C418006BE423 /* ButtonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonTableViewCell.xib; sourceTree = "<group>"; };
+		3C5C1DC41D51C76B006BE423 /* WebDescriptionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebDescriptionTableViewCell.h; sourceTree = "<group>"; };
+		3C5C1DC51D51C76B006BE423 /* WebDescriptionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebDescriptionTableViewCell.m; sourceTree = "<group>"; };
+		3C5C1DC61D51C76B006BE423 /* WebDescriptionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebDescriptionTableViewCell.xib; sourceTree = "<group>"; };
+		3C8F6E3A1D50877B00C3E074 /* LeftSlideDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSlideDrawerViewController.h; sourceTree = "<group>"; };
+		3C8F6E3B1D50877B00C3E074 /* LeftSlideDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSlideDrawerViewController.m; sourceTree = "<group>"; };
+		3C8F6E3D1D50879000C3E074 /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		3C8F6E3E1D50879000C3E074 /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		3C8F6E431D5089EB00C3E074 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		7E61B311D2AC7556BAA73E7B /* Pods-mVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mVideo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mVideo/Pods-mVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		EFB6CD082C08E242176E8907 /* Pods-mVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-mVideo/Pods-mVideo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +110,7 @@
 				178F77261D34D3CD00596B38 /* CoreGraphics.framework in Frameworks */,
 				178F77251D34D3BB00596B38 /* UIKit.framework in Frameworks */,
 				17C151841D33943C0084CF31 /* QuartzCore.framework in Frameworks */,
-				DB2F21D13FA541E2C79AD719 /* libPods-PP.a in Frameworks */,
+				0A51EC3C194D0270C46AFC79 /* libPods-mVideo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +139,8 @@
 		266158C51D4B3D4F00EA29BA /* mVideo */ = {
 			isa = PBXGroup;
 			children = (
+				3C5C1DC91D51CA07006BE423 /* Models */,
+				3C090A541D50A92D0050CC33 /* Views */,
 				266158C61D4B3D4F00EA29BA /* AppDelegate.h */,
 				266158C71D4B3D4F00EA29BA /* AppDelegate.m */,
 				266158C81D4B3D4F00EA29BA /* Assets.xcassets */,
@@ -148,6 +184,8 @@
 		266158D51D4B3D4F00EA29BA /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				3C5C1DB51D51A6AB006BE423 /* Enums */,
+				3C8F6E421D5089EB00C3E074 /* Constants */,
 				266158D61D4B3D4F00EA29BA /* SettingUtils.h */,
 				266158D71D4B3D4F00EA29BA /* SettingUtils.m */,
 			);
@@ -157,8 +195,9 @@
 		266158D81D4B3D4F00EA29BA /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				266158D91D4B3D4F00EA29BA /* ViewController.h */,
-				266158DA1D4B3D4F00EA29BA /* ViewController.m */,
+				3C090A501D50A6640050CC33 /* ParentViewController */,
+				3C8F6E381D50866F00C3E074 /* CenterViewController */,
+				3C8F6E391D50866F00C3E074 /* LeftSlideDrawerViewController */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -170,11 +209,148 @@
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
+		3C090A501D50A6640050CC33 /* ParentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3C090A511D50A6760050CC33 /* ParentViewController.h */,
+				3C090A521D50A6760050CC33 /* ParentViewController.m */,
+			);
+			path = ParentViewController;
+			sourceTree = "<group>";
+		};
+		3C090A541D50A92D0050CC33 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C5C1DB81D51C3D9006BE423 /* MenuCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3C36A27C1D52FFDE006C9A87 /* MenuItems */ = {
+			isa = PBXGroup;
+			children = (
+				3C36A2811D531C94006C9A87 /* SettingItem */,
+				3C36A27D1D52FFDE006C9A87 /* SearchItem */,
+			);
+			path = MenuItems;
+			sourceTree = "<group>";
+		};
+		3C36A27D1D52FFDE006C9A87 /* SearchItem */ = {
+			isa = PBXGroup;
+			children = (
+				3C36A27E1D52FFED006C9A87 /* SearchItem.h */,
+				3C36A27F1D52FFED006C9A87 /* SearchItem.m */,
+			);
+			path = SearchItem;
+			sourceTree = "<group>";
+		};
+		3C36A2811D531C94006C9A87 /* SettingItem */ = {
+			isa = PBXGroup;
+			children = (
+				3C36A2821D531CA2006C9A87 /* SettingItem.h */,
+				3C36A2831D531CA2006C9A87 /* SettingItem.m */,
+			);
+			path = SettingItem;
+			sourceTree = "<group>";
+		};
+		3C36A2851D531E6D006C9A87 /* SearchItemCell */ = {
+			isa = PBXGroup;
+			children = (
+				3C36A28A1D531EA8006C9A87 /* SearchItemTableViewCell.h */,
+				3C36A28B1D531EA8006C9A87 /* SearchItemTableViewCell.m */,
+				3C36A28C1D531EA8006C9A87 /* SearchItemTableViewCell.xib */,
+			);
+			path = SearchItemCell;
+			sourceTree = "<group>";
+		};
+		3C36A2861D531E6D006C9A87 /* SettingItemCell */ = {
+			isa = PBXGroup;
+			children = (
+				3C36A28F1D5320C7006C9A87 /* SettingItemTableViewCell.h */,
+				3C36A2901D5320C7006C9A87 /* SettingItemTableViewCell.m */,
+				3C36A2911D5320C7006C9A87 /* SettingItemTableViewCell.xib */,
+			);
+			path = SettingItemCell;
+			sourceTree = "<group>";
+		};
+		3C5C1DB51D51A6AB006BE423 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				3C5C1DB61D51A6BB006BE423 /* Enums.h */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		3C5C1DB81D51C3D9006BE423 /* MenuCell */ = {
+			isa = PBXGroup;
+			children = (
+				3C36A2851D531E6D006C9A87 /* SearchItemCell */,
+				3C36A2861D531E6D006C9A87 /* SettingItemCell */,
+				3C5C1DB91D51C3D9006BE423 /* ButtonCell */,
+				3C5C1DBB1D51C3D9006BE423 /* WebDescriptionCell */,
+			);
+			path = MenuCell;
+			sourceTree = "<group>";
+		};
+		3C5C1DB91D51C3D9006BE423 /* ButtonCell */ = {
+			isa = PBXGroup;
+			children = (
+				3C5C1DBC1D51C418006BE423 /* ButtonTableViewCell.h */,
+				3C5C1DBD1D51C418006BE423 /* ButtonTableViewCell.m */,
+				3C5C1DBE1D51C418006BE423 /* ButtonTableViewCell.xib */,
+			);
+			path = ButtonCell;
+			sourceTree = "<group>";
+		};
+		3C5C1DBB1D51C3D9006BE423 /* WebDescriptionCell */ = {
+			isa = PBXGroup;
+			children = (
+				3C5C1DC41D51C76B006BE423 /* WebDescriptionTableViewCell.h */,
+				3C5C1DC51D51C76B006BE423 /* WebDescriptionTableViewCell.m */,
+				3C5C1DC61D51C76B006BE423 /* WebDescriptionTableViewCell.xib */,
+			);
+			path = WebDescriptionCell;
+			sourceTree = "<group>";
+		};
+		3C5C1DC91D51CA07006BE423 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C36A27C1D52FFDE006C9A87 /* MenuItems */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C8F6E381D50866F00C3E074 /* CenterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3C8F6E3D1D50879000C3E074 /* CenterViewController.h */,
+				3C8F6E3E1D50879000C3E074 /* CenterViewController.m */,
+			);
+			path = CenterViewController;
+			sourceTree = "<group>";
+		};
+		3C8F6E391D50866F00C3E074 /* LeftSlideDrawerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3C8F6E3A1D50877B00C3E074 /* LeftSlideDrawerViewController.h */,
+				3C8F6E3B1D50877B00C3E074 /* LeftSlideDrawerViewController.m */,
+			);
+			path = LeftSlideDrawerViewController;
+			sourceTree = "<group>";
+		};
+		3C8F6E421D5089EB00C3E074 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				3C8F6E431D5089EB00C3E074 /* Constants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		B337EA007F302A5240939196 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EA808F20DA5FB3E2699500CA /* Pods-PP.debug.xcconfig */,
-				D5229D407F7B163538D154E0 /* Pods-PP.release.xcconfig */,
+				7E61B311D2AC7556BAA73E7B /* Pods-mVideo.debug.xcconfig */,
+				EFB6CD082C08E242176E8907 /* Pods-mVideo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -192,7 +368,7 @@
 				178F77211D34D33500596B38 /* Foundation.framework */,
 				17C151851D3394730084CF31 /* UIKit.framework */,
 				17C151831D33943C0084CF31 /* QuartzCore.framework */,
-				9E1DC62AF352D632C92827FC /* libPods-PP.a */,
+				21A4A266FBC7CDF0843D64B0 /* libPods-mVideo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -204,13 +380,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 263CBC211D2E62B200AEB3A3 /* Build configuration list for PBXNativeTarget "mVideo" */;
 			buildPhases = (
-				80A636EB7095B95AB932D17F /* [CP] Check Pods Manifest.lock */,
+				09529469383BF2270F4E6164 /* Check Pods Manifest.lock */,
 				263CBC061D2E62B200AEB3A3 /* Sources */,
 				263CBC081D2E62B200AEB3A3 /* Resources */,
 				263CBC071D2E62B200AEB3A3 /* Frameworks */,
 				26F4B7A01D2F88A4007FD43C /* ShellScript */,
-				01DC7DD35652B3D4C8C7CC5F /* [CP] Embed Pods Frameworks */,
-				EF8C9F4C092B54000FC48D4D /* [CP] Copy Pods Resources */,
+				C38E7F359F6046DFF121CF72 /* Embed Pods Frameworks */,
+				748E0FDA76F40D412741B7DA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,29 +436,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				266158E21D4B3D4F00EA29BA /* Main.storyboard in Resources */,
+				3C5C1DC01D51C418006BE423 /* ButtonTableViewCell.xib in Resources */,
 				266158DC1D4B3D4F00EA29BA /* Assets.xcassets in Resources */,
 				266158E01D4B3D4F00EA29BA /* strings.txt in Resources */,
+				3C36A28E1D531EA8006C9A87 /* SearchItemTableViewCell.xib in Resources */,
 				266158DF1D4B3D4F00EA29BA /* Localizable.strings in Resources */,
+				3C5C1DC81D51C76B006BE423 /* WebDescriptionTableViewCell.xib in Resources */,
 				266158E11D4B3D4F00EA29BA /* LaunchScreen.storyboard in Resources */,
+				3C36A2931D5320C7006C9A87 /* SettingItemTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		01DC7DD35652B3D4C8C7CC5F /* [CP] Embed Pods Frameworks */ = {
+		09529469383BF2270F4E6164 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PP/Pods-PP-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		26F4B7A01D2F88A4007FD43C /* ShellScript */ = {
@@ -298,34 +478,34 @@
 			shellPath = /bin/sh;
 			shellScript = "twine generate-all-string-files mVideo/Other/strings.txt mVideo/Other/Strings";
 		};
-		80A636EB7095B95AB932D17F /* [CP] Check Pods Manifest.lock */ = {
+		748E0FDA76F40D412741B7DA /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mVideo/Pods-mVideo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EF8C9F4C092B54000FC48D4D /* [CP] Copy Pods Resources */ = {
+		C38E7F359F6046DFF121CF72 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PP/Pods-PP-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mVideo/Pods-mVideo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -337,8 +517,16 @@
 			files = (
 				266158DE1D4B3D4F00EA29BA /* main.m in Sources */,
 				266158E31D4B3D4F00EA29BA /* SettingUtils.m in Sources */,
-				266158E41D4B3D4F00EA29BA /* ViewController.m in Sources */,
+				3C090A531D50A6760050CC33 /* ParentViewController.m in Sources */,
+				3C5C1DBF1D51C418006BE423 /* ButtonTableViewCell.m in Sources */,
+				3C36A2841D531CA2006C9A87 /* SettingItem.m in Sources */,
+				3C8F6E3C1D50877B00C3E074 /* LeftSlideDrawerViewController.m in Sources */,
+				3C36A28D1D531EA8006C9A87 /* SearchItemTableViewCell.m in Sources */,
 				266158DB1D4B3D4F00EA29BA /* AppDelegate.m in Sources */,
+				3C8F6E3F1D50879000C3E074 /* CenterViewController.m in Sources */,
+				3C36A2921D5320C7006C9A87 /* SettingItemTableViewCell.m in Sources */,
+				3C5C1DC71D51C76B006BE423 /* WebDescriptionTableViewCell.m in Sources */,
+				3C36A2801D52FFED006C9A87 /* SearchItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +633,7 @@
 		};
 		263CBC221D2E62B200AEB3A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA808F20DA5FB3E2699500CA /* Pods-PP.debug.xcconfig */;
+			baseConfigurationReference = 7E61B311D2AC7556BAA73E7B /* Pods-mVideo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -458,14 +646,14 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = mytrax.co.jp.mVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "00960b9d-f460-40d6-b04a-28fd0f822220";
+				PROVISIONING_PROFILE = "";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Debug;
 		};
 		263CBC231D2E62B200AEB3A3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5229D407F7B163538D154E0 /* Pods-PP.release.xcconfig */;
+			baseConfigurationReference = EFB6CD082C08E242176E8907 /* Pods-mVideo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -479,7 +667,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = mytrax.co.jp.mVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "00960b9d-f460-40d6-b04a-28fd0f822220";
+				PROVISIONING_PROFILE = "";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Release;

@@ -1,5 +1,7 @@
 #ifdef __OBJC__
 #import <UIKit/UIKit.h>
 #import "SettingUtils.h"
+#import "Constants.h"
+#import "Enums.h"
 #endif
 

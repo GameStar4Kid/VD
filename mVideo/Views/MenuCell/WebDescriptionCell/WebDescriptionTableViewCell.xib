@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="258" id="KGk-i7-Jjw" customClass="WebDescriptionTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="258"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="257"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NaW-W1-8aP">
+                        <rect key="frame" x="40" y="8" width="240" height="54"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="54" id="A1k-RW-AAw"/>
+                            <constraint firstAttribute="width" constant="240" id="mYZ-jl-Tj0"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZE2-dk-EPk">
+                        <rect key="frame" x="40" y="70" width="240" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="240" id="12a-eD-y0Z"/>
+                            <constraint firstAttribute="height" constant="36" id="YQJ-5m-qth"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E05-Iw-rW9">
+                        <rect key="frame" x="40" y="125" width="240" height="43"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="43" id="Ojh-mE-amb"/>
+                            <constraint firstAttribute="width" constant="240" id="dPQ-vg-ZAN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9hx-gI-Q4d">
+                        <rect key="frame" x="40" y="185" width="240" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="240" id="lBr-W2-t3M"/>
+                            <constraint firstAttribute="height" constant="44" id="qjd-Mn-rNW"/>
+                        </constraints>
+                        <connections>
+                            <action selector="tappedAtWebButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="vLd-cQ-G3e"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="NaW-W1-8aP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="4b9-ck-oVZ"/>
+                    <constraint firstItem="9hx-gI-Q4d" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="5m0-Pt-Q23"/>
+                    <constraint firstItem="ZE2-dk-EPk" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="GkA-AY-XgZ"/>
+                    <constraint firstItem="NaW-W1-8aP" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="LNw-ky-Znp"/>
+                    <constraint firstItem="E05-Iw-rW9" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="NP5-Rw-EL0"/>
+                    <constraint firstItem="9hx-gI-Q4d" firstAttribute="top" secondItem="E05-Iw-rW9" secondAttribute="bottom" constant="17" id="Oso-bM-fTd"/>
+                    <constraint firstItem="ZE2-dk-EPk" firstAttribute="top" secondItem="NaW-W1-8aP" secondAttribute="bottom" constant="8" id="aO1-Xm-oMb"/>
+                    <constraint firstItem="E05-Iw-rW9" firstAttribute="top" secondItem="ZE2-dk-EPk" secondAttribute="bottom" constant="19" id="mXj-4S-z7r"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnWeb" destination="9hx-gI-Q4d" id="9lb-z7-DlM"/>
+                <outlet property="imgLogo" destination="NaW-W1-8aP" id="gLV-8h-kpa"/>
+                <outlet property="lblDescription" destination="E05-Iw-rW9" id="dF4-wk-2FR"/>
+                <outlet property="lblTitle" destination="ZE2-dk-EPk" id="OSL-6V-Akt"/>
+            </connections>
+            <point key="canvasLocation" x="558" y="497"/>
+        </tableViewCell>
+    </objects>
+</document>

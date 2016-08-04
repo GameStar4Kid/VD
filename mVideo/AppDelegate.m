@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "MMDrawerController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -14,6 +16,8 @@
 @implementation AppDelegate
 - (BOOL) application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [self setUp];
+    
     return YES;
 }
 
@@ -41,6 +45,27 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - Private Methods
+
+- (void)setUp {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:MAIN_STORYBOARD bundle:nil];
+    UIViewController *leftVC = [storyboard instantiateViewControllerWithIdentifier:LEFT_SLIDE_DRAWER_VIEW_CONTROLLER];
+    UINavigationController *leftNVC = [[UINavigationController alloc] initWithRootViewController:leftVC];
+    
+    UIViewController *centerVC = [storyboard instantiateViewControllerWithIdentifier:CENTER_VIEW_CONTROLLER];
+    UINavigationController *centerNVC = [[UINavigationController alloc] initWithRootViewController:centerVC];
+    
+    MMDrawerController *drawerVC = [[MMDrawerController alloc] initWithCenterViewController:centerNVC leftDrawerViewController:leftNVC];
+    [drawerVC setShowsShadow:NO];
+    [drawerVC setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
+    [drawerVC setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window setRootViewController:drawerVC];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
 }
 
 @end
