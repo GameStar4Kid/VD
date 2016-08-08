@@ -80,9 +80,11 @@ static NSString *kWebDescriptionCell = @"webDescriptionCell";
 
 - (void)updateUI {
     UIView *tableHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.tableView.bounds.size.width, kHeightOfTableHeaderView)];
+    tableHeaderView.backgroundColor = BACKGROUND_COLOR_MENU_HEADER_TABLEVIEW;
     UILabel *lblTitle = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, tableHeaderView.bounds.size.width, tableHeaderView.bounds.size.height)];
     lblTitle.text = NSLocalizedString(@"Menu", nil);
     lblTitle.textAlignment = NSTextAlignmentCenter;
+    lblTitle.backgroundColor = [UIColor clearColor];
     [tableHeaderView addSubview:lblTitle];
     
     self.tableView.tableHeaderView = tableHeaderView;
@@ -154,22 +156,22 @@ static NSString *kWebDescriptionCell = @"webDescriptionCell";
 - (NSArray *)dataForSettingSection {
     NSMutableArray *datas = [[NSMutableArray alloc] init];
     
-    SettingItem *mediaNew = [[SettingItem alloc] initSettingItemWithName:NSLocalizedString(@"Media new", nil) andImageName:@"" andSelectable:NO];
+    SettingItem *mediaNew = [[SettingItem alloc] initSettingItemWithName:NSLocalizedString(@"Media new", nil) andImageName:IMG_MEDIA_NEW andSelectable:NO];
     [datas addObject:mediaNew];
     
-    SettingItem *info = [[SettingItem alloc] initSettingItemWithName:NSLocalizedString(@"Info", nil) andImageName:@"" andSelectable:NO];
+    SettingItem *info = [[SettingItem alloc] initSettingItemWithName:NSLocalizedString(@"Info", nil) andImageName:IMG_INFO andSelectable:NO];
     [datas addObject:info];
     
-    SettingItem *pointHistory = [[SettingItem alloc] initSettingItemWithName:NSLocalizedString(@"Point history", nil) andImageName:@"" andSelectable:NO];
+    SettingItem *pointHistory = [[SettingItem alloc] initSettingItemWithName:NSLocalizedString(@"Point history", nil) andImageName:IMG_POINT_HISTORY andSelectable:NO];
     [datas addObject:pointHistory];
     
-    SettingItem *howTo = [[SettingItem alloc] initSettingItemWithName:NSLocalizedString(@"How to", nil) andImageName:@"" andSelectable:NO];
+    SettingItem *howTo = [[SettingItem alloc] initSettingItemWithName:NSLocalizedString(@"How to", nil) andImageName:IMG_HOW_TO andSelectable:NO];
     [datas addObject:howTo];
     
-    SettingItem *setting = [[SettingItem alloc] initSettingItemWithName:NSLocalizedString(@"Setting", nil) andImageName:@"" andSelectable:YES];
+    SettingItem *setting = [[SettingItem alloc] initSettingItemWithName:NSLocalizedString(@"Setting", nil) andImageName:IMG_SETTING andSelectable:YES];
     [datas addObject:setting];
     
-    SettingItem *aboutService = [[SettingItem alloc] initSettingItemWithName:NSLocalizedString(@"About service", nil) andImageName:@"" andSelectable:YES];
+    SettingItem *aboutService = [[SettingItem alloc] initSettingItemWithName:NSLocalizedString(@"About service", nil) andImageName:IMG_ABOUT_SERVICE andSelectable:YES];
     [datas addObject:aboutService];
     
     return datas;
@@ -188,6 +190,7 @@ static NSString *kWebDescriptionCell = @"webDescriptionCell";
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:defaultCell];
     }
+    cell.backgroundColor = BACKGROUND_COLOR_MENU_ITEM;
     cell.textLabel.text = title;
     if (imageName.length > 0) {
         cell.imageView.image = [UIImage imageNamed:imageName];
@@ -217,7 +220,7 @@ static NSString *kWebDescriptionCell = @"webDescriptionCell";
             switch (number.unsignedIntegerValue) {
                 case HeaderSectionCellType_Login:{
                     
-                    return [self defaultCellWithTitle:NSLocalizedString(@"Login", nil) andImageName:@""];
+                    return [self defaultCellWithTitle:NSLocalizedString(@"Login", nil) andImageName:IMG_LOGIN];
                 }
                     break;
                 case HeaderSectionCellType_Register: {
@@ -257,7 +260,7 @@ static NSString *kWebDescriptionCell = @"webDescriptionCell";
             switch (number.unsignedIntegerValue) {
                 case FAQSectionCellType_Mail:
                     
-                    return [self defaultCellWithTitle:NSLocalizedString(@"Mail", nil) andImageName:@""];
+                    return [self defaultCellWithTitle:NSLocalizedString(@"Mail", nil) andImageName:IMG_MAIL];
                     
                     break;
                 case FAQSectionCellType_WebDescription:{

@@ -15,26 +15,26 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="av5-fw-fj2">
-                        <rect key="frame" x="15" y="7" width="30" height="30"/>
+                        <rect key="frame" x="15" y="10" width="24" height="24"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="30" id="1zX-ie-55x"/>
-                            <constraint firstAttribute="width" constant="30" id="xRx-vd-TBd"/>
+                            <constraint firstAttribute="height" constant="24" id="1zX-ie-55x"/>
+                            <constraint firstAttribute="width" constant="24" id="xRx-vd-TBd"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ubM-Wb-Lq1">
-                        <rect key="frame" x="53" y="11" width="221" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ubM-Wb-Lq1">
+                        <rect key="frame" x="47" y="11" width="233" height="21"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="21" id="qAg-OQ-EqE"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oIP-2V-uJt">
-                        <rect key="frame" x="282" y="7" width="30" height="30"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_tri" translatesAutoresizingMaskIntoConstraints="NO" id="oIP-2V-uJt">
+                        <rect key="frame" x="288" y="10" width="24" height="24"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="30" id="bMN-PO-Uhp"/>
-                            <constraint firstAttribute="width" constant="30" id="m78-Ck-1WN"/>
+                            <constraint firstAttribute="height" constant="24" id="bMN-PO-Uhp"/>
+                            <constraint firstAttribute="width" constant="24" id="m78-Ck-1WN"/>
                         </constraints>
                     </imageView>
                 </subviews>
@@ -55,4 +55,7 @@
             </connections>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="icon_tri" width="24" height="24"/>
+    </resources>
 </document>

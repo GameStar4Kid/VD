@@ -32,7 +32,8 @@
 }
 
 - (void)setUp {
-    //[self.imgLogo setImage:[UIImage imageNamed:@""]];
+    self.backgroundColor = BACKGROUND_COLOR_MENU_ITEM;
+    [self.imgLogo setImage:[UIImage imageNamed:IMG_LOGO]];
     self.lblTitle.text = NSLocalizedString(@"", nil);
     self.lblDescription.text = NSLocalizedString(@"", nil);
     [self.btnWeb setTitle:NSLocalizedString(@"", nil) forState:UIControlStateNormal];

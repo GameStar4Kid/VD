@@ -30,6 +30,7 @@
 
 - (void)setUp {
     [self.btnRegister setTitle:NSLocalizedString(@"Register", nil) forState:UIControlStateNormal];
+    self.backgroundColor = BACKGROUND_COLOR_MENU_ITEM;
 }
 
 - (IBAction)tappedAtRegisterButton:(id)sender {

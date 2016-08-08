@@ -21,6 +21,7 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
+    self.backgroundColor = BACKGROUND_COLOR_MENU_ITEM;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

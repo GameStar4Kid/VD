@@ -14,20 +14,20 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGU-bz-TBE">
-                        <rect key="frame" x="15" y="11" width="259" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGU-bz-TBE">
+                        <rect key="frame" x="15" y="11" width="265" height="21"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="21" id="DDs-Vq-ynp"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YpM-fL-Zj2">
-                        <rect key="frame" x="282" y="7" width="30" height="30"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_tri" translatesAutoresizingMaskIntoConstraints="NO" id="YpM-fL-Zj2">
+                        <rect key="frame" x="288" y="10" width="24" height="24"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="30" id="MqJ-AM-6sz"/>
-                            <constraint firstAttribute="height" constant="30" id="ed5-HT-vB6"/>
+                            <constraint firstAttribute="width" constant="24" id="MqJ-AM-6sz"/>
+                            <constraint firstAttribute="height" constant="24" id="ed5-HT-vB6"/>
                         </constraints>
                     </imageView>
                 </subviews>
@@ -45,4 +45,7 @@
             </connections>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="icon_tri" width="24" height="24"/>
+    </resources>
 </document>
